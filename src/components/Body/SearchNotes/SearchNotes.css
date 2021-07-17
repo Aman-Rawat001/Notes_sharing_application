@@ -1,0 +1,93 @@
+.notes_searchBar {
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+.notes_searchBar .dropdown_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.notes_searchBar .select_dropdown {
+  box-shadow: 0px 2px 6px 0px #cbcbcb;
+  font-weight: 500;
+}
+.notes_searchBar .searchItems {
+  text-align: center;
+}
+.notes_searchBar .searchItems input {
+  width: 35%;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 4px;
+  /* border: 1px solid gray; */
+  box-shadow: 2px 3px 9px 0px darkgrey;
+  margin: 1px;
+  border-bottom: 1px solid gray;
+}
+.notes_searchBar #searchEngineBox {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  /* box-shadow: 2px 2px 2px; */
+  z-index: 9;
+  width: 100%;
+  backdrop-filter: blur(1.5px);
+}
+.notes_searchBar form .faSearchIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-left: 1px solid #ced4da;
+  border-top: 1px solid #ced4da;
+  padding-left: 0.5rem;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom: 1px solid #ced4da;
+}
+.notes_searchBar .form-control:focus {
+  box-shadow: none;
+}
+.notes_searchBar .dropdown_menu .dropdown button {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: none;
+  box-shadow: 1px 2px 3px 0px #b4a9a9;
+  margin-bottom: 10px;
+  outline: none;
+}
+.notes_searchBar .rhs_card_header {
+  background-color: rgb(41, 98, 184);
+  color: white;
+}
+.notes_searchBar .searchBar_btn:hover {
+  background-color: #658ac2 !important;
+}
+.notes_searchBar .dropdown-menu-dark {
+  background-color: #173b70;
+}
+@media screen and (max-width: 575px) {
+  .notes_searchBar .select_dropdown {
+    margin-top: 1rem;
+  }
+  .notes_searchBar .paper_row {
+    --bs-gutter-x: 0;
+  }
+  .notes_searchBar .search_card_box {
+    display: flex;
+    justify-content: center;
+  }
+  .notes_searchBar .leftCorner {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .notes_searchBar .searchItems input {
+    width: 85%;
+    margin: 1px;
+  }
+}

@@ -1,0 +1,38 @@
+.homepage_carousel {
+  border: 2px solid white;
+}
+.homepage_carousel .carousel-inner {
+  height: 22rem;
+  padding-top: 2rem;
+  /* background-color: #4883db; */
+  background-image: linear-gradient(#2c6ed1, #0e9bba);
+}
+.homepage_carousel .carousel-caption {
+  bottom: auto;
+}
+.homepage_carousel .testimonialImg {
+  position: absolute;
+  width: 6rem;
+  left: 50%;
+  height: 7rem;
+  transform: translateX(-50%);
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.homepage_carousel .testimonialText {
+  /* border: 1px solid; */
+  left: 50%;
+  top: 8rem;
+  text-align: center;
+  max-width: 33rem;
+  color: white;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.homepage_carousel .carousel-control-next-icon,
+.homepage_carousel .carousel-control-prev-icon {
+  /* border: 4px solid; */
+  border-radius: 50%;
+  padding: 2rem;
+  /* background-color: blue; */
+}

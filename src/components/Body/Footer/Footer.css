@@ -1,0 +1,45 @@
+.footer {
+  background-color: #433d3d;
+  color: #999999;
+}
+.footer .leftContent img {
+  width: 17rem;
+}
+.footer .leftContent h3 {
+  font-size: 1.1rem;
+}
+.footer .leftContent {
+  align-items: flex-end;
+}
+.footer .leftContent button {
+  border: 1px solid transparent;
+  background-color: #4883db;
+  color: white;
+}
+.footer .leftContent button:hover {
+  background-color: #186ff0;
+  border: 1px solid white;
+}
+.footer p {
+  font-size: 0.9rem;
+  margin: 8px;
+}
+.footer p a {
+  text-decoration: none;
+  color: #999999;
+}
+
+@media screen and (max-width: 575px) {
+  .footer .mobileMargin {
+    margin-left: -1rem;
+  }
+  .footer .leftContent img {
+    width: 10rem;
+  }
+  .footer .leftContent {
+    align-items: inherit;
+  }
+  .footer .leftContent button {
+    margin-left: 0 !important;
+  }
+}

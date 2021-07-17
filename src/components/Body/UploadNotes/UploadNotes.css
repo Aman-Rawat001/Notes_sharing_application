@@ -1,0 +1,71 @@
+.uploadNotesBG {
+  background-image: linear-gradient(to right, #729ad7, #6db0df3d);
+  margin-top: 4rem;
+  z-index: -2;
+}
+.uploadNotesBG .bgImg {
+  position: absolute;
+  width: 81%;
+  left: 50%;
+  z-index: -3;
+  opacity: 0.3;
+  transform: translateX(-50%);
+}
+
+.uploadNotesBG .form_box {
+  color: white;
+  text-shadow: 1px 1px gray;
+  max-width: 48rem;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+.uploadNotesBG .form_box form {
+  padding-top: 4em;
+  background-color: #0010358f;
+  border-radius: 12px;
+  padding: 1rem;
+}
+.uploadNotesBG .form_box form input {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.uploadNotesBG .form_box form .dropdown {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  /* width: 100%; */
+}
+
+.uploadNotesBG .form-select {
+  /* width: 50%; */
+  max-width: 83%;
+}
+.uploadNotesBG .content1 {
+  font-weight: bold;
+}
+.uploadNotesBG .form_box .dropdown_menu {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+}
+.uploadNotesBG .upload_notes_btn {
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+}
+.uploadNotesBG .upload_notes_btn:hover {
+  background-color: #0077ff;
+}
+.uploadNotesBG .uploadProgress {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 575px) {
+  .uploadNotesBG .form_box .dropdown_menu {
+    display: block;
+  }
+  .uploadNotesBG .form-select {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

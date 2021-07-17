@@ -1,0 +1,80 @@
+.showOnSmallScreen {
+  display: none;
+}
+.documentDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.react-pdf__Page {
+  border: 1px solid gray;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: gray;
+  border-radius: 10px;
+  width: 70%;
+}
+.transparentDiv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 900px;
+  width: 89%;
+  left: 0;
+  /* right: 0; */
+  background-color: transparent;
+  /* background-color: gray; */
+}
+.transparentDivLeft {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 900px;
+  width: 6%;
+  /* left: 0; */
+  right: 0;
+  background-color: transparent;
+  /* background-color: blue; */
+}
+
+@media (min-width: 1920px) {
+  .transparentDiv {
+    width: 82%;
+  }
+  .transparentDivLeft {
+    width: 15%;
+  }
+}
+
+.scrollUsingScrollbar {
+  display: inline;
+}
+@media (max-width: 800px) {
+  .scrollUsingScrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .holds-the-iframe {
+    display: none;
+  }
+
+  .showOnSmallScreen {
+    display: block;
+  }
+  .react-pdf__Page {
+    padding: 0.2rem;
+  }
+  .react-pdf__Page__canvas {
+    width: 20rem !important;
+    height: 30rem !important;
+  }
+}
+/* prevent pdf from print */
+@media print {
+  .documentDiv {
+    display: none;
+  }
+}

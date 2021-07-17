@@ -1,0 +1,60 @@
+.searchCard img {
+  height: 12rem;
+  width: 100%;
+}
+.searchCard .card_content p {
+  margin: 2px;
+}
+.searchCard .card_content .ch_name {
+  font-weight: bold;
+}
+.searchCard .card {
+  box-shadow: 0px 2px 5px 1px #eae3e3;
+  transition: all 0.3s ease-in-out;
+}
+.searchCard .card:hover {
+  box-shadow: 1px 1px 5px 3px #d6d6d6;
+  /* transform: scale(1.005); */
+}
+
+.searchCard .card_content .course {
+  color: #7b7e87;
+  font-family: monospace;
+  /* font-size: 1rem; */
+  letter-spacing: 0px;
+  word-spacing: -3px;
+}
+.searchCard .accessBtn {
+  width: 100%;
+  height: rem;
+  background-color: rgb(41, 98, 184);
+  outline: none;
+  border: none;
+}
+.searchCard .card-body {
+  padding-top: 0;
+}
+.searchCard .noteNum {
+  margin: 0;
+  position: absolute;
+  background-color: #858181;
+  padding-left: 0.2rem;
+  color: white;
+  padding-right: 0.2rem;
+}
+.searchCard .accessBtn:hover {
+  background-color: rgb(4, 82, 209);
+  outline: none;
+  border: none;
+}
+.searchCard .card_content .credit {
+  color: #7b7e87;
+  margin: 0;
+  font-family: ui-monospace;
+}
+
+@media screen and (max-width: 575px) {
+  .searchCard {
+    width: 85%;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "awesomeapp",
+  "version": "0.1.0",
+  "main": "/src/index.js",
+  "homepage": "/",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1",
+    "cra-template": "1.1.1",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^3.1.0",
+    "firebase": "^8.6.7",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "firebase build",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "firebase-tools": "^9.16.0"
+  }
+}
